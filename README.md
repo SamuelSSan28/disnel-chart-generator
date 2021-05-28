@@ -10,7 +10,7 @@
 </div>
 
 <h4 align="center">
-  Disnel Chart Generator is a platform built to generate interactive line charts fromjson files.
+  Disnel Chart Generator is a platform built to generate interactive line charts from json files.
 </h4>
 
 <br>
