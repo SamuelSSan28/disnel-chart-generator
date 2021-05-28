@@ -1,0 +1,11 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.tittle{
+    font-size: 1.5rem;
+    font-weight: bold;
+}

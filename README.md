@@ -1,34 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://i.imgur.com/Yti1VpD.png" alt="DCG logo">
+  
+  <br/>
 
-## Getting Started
+[![Author](https://img.shields.io/badge/author-samuelssan28-2196F3?style=flat-square)](https://github.com/samuelssan28)
+[![Languages](https://img.shields.io/github/languages/count/samuelssan28/nlw-5-podcastr?color=EA6A47&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/samuelssan28/nlw-5-podcastr?color=EA6A47&style=flat-square)](https://github.com/samuelssan28/disnel-chart-generator/stargazers)
 
-First, run the development server:
+</div>
+
+<h4 align="center">
+  Disnel Chart Generator is a platform built to generate interactive line charts fromjson files.
+</h4>
+
+<br>
+
+
+<h1 align="center">
+ 
+![NCG preview](https://i.imgur.com/wJJZV0T.png)
+
+</h1>
+
+
+## Tecnologies
+This project was developed using cutting edge front-end technologies.
+
+
+- [ReactJS](https://reactjs.org/)
+- [Javascript](https://js.org/)
+- [Next.js](https://nextjs.org/)
+
+## 💻 Getting started
+
+### Requirements
+
+- You need to install both [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/) to run this project.
+
+**Clone the project and access the folder**
 
 ```bash
-npm run dev
-# or
-yarn dev
+$ git clone https://github.com/samuelssan28/nlw-5-podcastr.git && cd podcastr
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Follow the steps below**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Install the dependencies
+$ yarn
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Run the web server
+$ yarn dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+The app will be available for access on your browser at `http://localhost:3000`
 
-## Learn More
+## 📝 Json File Format
 
-To learn more about Next.js, take a look at the following resources:
+```json
+    {
+        "2020":{
+            "labels": ["January", "February", "March", "April", "May", "June", "July"],
+            "datasets": [
+            {
+                "label": "First Dataset",
+                "data": [65, 59, 80, 81, 56, 55, 40],
+                "borderColor": "#42A5F5"
+            },
+            {
+                "label": "Second Dataset",
+                "data": [28, 48, 40, 19, 86, 27, 90],
+                "borderColor": "#FFA726"
+            }]
+        }
+    }
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Made with 💜 by Samuel Santos 

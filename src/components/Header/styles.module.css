@@ -1,0 +1,30 @@
+  
+.headerContainer{
+    background: #fff;
+    width: 100%;
+    height: 1.5rem;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 2rem 2rem;
+
+    border-bottom: 1px solid #E6E8EB;
+}
+
+.t1{
+    padding: 0.25rem 0 0.25rem 0.25 0.25rem;
+    margin:0;
+    margin-left: 0.2rem;
+    font-weight: 500;
+    font-family: Lexend,sans-serif;
+    color: #EA6A47;
+}
+
+.t2{
+    margin:0;
+    font-weight: 600;
+    font-family: Lexend,sans-serif;
+    color: #2196F3;
+}
