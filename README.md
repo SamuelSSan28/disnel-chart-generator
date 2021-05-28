@@ -40,7 +40,7 @@ This project was developed using cutting edge front-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/samuelssan28/disnel-chart-generator.git && cd podcastr
+$ git clone https://github.com/samuelssan28/disnel-chart-generator.git && cd disnel-chart-generator
 ```
 
 **Follow the steps below**
