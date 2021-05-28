@@ -4,8 +4,8 @@
   <br/>
 
 [![Author](https://img.shields.io/badge/author-samuelssan28-2196F3?style=flat-square)](https://github.com/samuelssan28)
-[![Languages](https://img.shields.io/github/languages/count/samuelssan28/nlw-5-podcastr?color=EA6A47&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/samuelssan28/nlw-5-podcastr?color=EA6A47&style=flat-square)](https://github.com/samuelssan28/disnel-chart-generator/stargazers)
+[![Languages](https://img.shields.io/github/languages/count/samuelssan28/disnel-chart-generator?color=EA6A47&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/samuelssan28/disnel-chart-generator?color=EA6A47&style=flat-square)](https://github.com/samuelssan28/disnel-chart-generator/stargazers)
 
 </div>
 
@@ -40,7 +40,7 @@ This project was developed using cutting edge front-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/samuelssan28/nlw-5-podcastr.git && cd podcastr
+$ git clone https://github.com/samuelssan28/disnel-chart-generator.git && cd podcastr
 ```
 
 **Follow the steps below**
